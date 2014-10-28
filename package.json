@@ -1,0 +1,36 @@
+{
+  "name": "insomnia",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "heroku.node": "~0.2.1",
+    "cron": "~1.0.4",
+    "request": "~2.36.0"
+  },
+  "devDependencies": {
+  },
+  "description": "Insomniac Web Application Server for Heroku.",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sl2/insomnia"
+  },
+  "keywords": [
+    "heroku",
+    "insomniac",
+    "monitoring",
+    "cron",
+    "node-cron",
+    "api"
+  ],
+  "author": "sl2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sl2/insomnia/issues"
+  },
+  "homepage": "https://github.com/sl2/insomnia"
+}
